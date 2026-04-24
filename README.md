@@ -45,8 +45,7 @@ This is a practical modern port for reproducibility and experimentation, not a b
 │     ├─ blowhole_best.png
 │     ├─ crack_example.png
 │     └─ uneven_hard_case.png
-└─ slides/
-   └─ build_mcue_deck.py
+```
 ```
 
 Key files:
@@ -55,7 +54,6 @@ Key files:
 - [`requirements.txt`](./requirements.txt): Python dependencies
 - [`docs/meeting_script_bilingual.md`](./docs/meeting_script_bilingual.md): Chinese-English group meeting script
 - [`results/sampled_summary.json`](./results/sampled_summary.json): summary from the sampled run
-- [`slides/build_mcue_deck.py`](./slides/build_mcue_deck.py): optional script for generating a presentation deck locally
 
 ## Installation
 
@@ -118,14 +116,6 @@ This exports:
 ### 2. Scale to a larger run
 
 Increase `--limit-per-class`, or remove it entirely to process more of the dataset.
-
-### 3. Optional: generate a local slide deck
-
-```bash
-python slides/build_mcue_deck.py
-```
-
-This step is optional and is **not** part of the repository contents. The generated `.pptx` is intentionally ignored by Git.
 
 ## Sampled Results
 
