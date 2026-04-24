@@ -37,8 +37,6 @@ This is a practical modern port for reproducibility and experimentation, not a b
 .
 ├─ modern_saliency_pipeline.py
 ├─ requirements.txt
-├─ docs/
-│  └─ meeting_script_bilingual.md
 ├─ results/
 │  ├─ sampled_summary.json
 │  └─ panels/
@@ -52,7 +50,6 @@ Key files:
 
 - [`modern_saliency_pipeline.py`](./modern_saliency_pipeline.py): main saliency pipeline and evaluation script
 - [`requirements.txt`](./requirements.txt): Python dependencies
-- [`docs/meeting_script_bilingual.md`](./docs/meeting_script_bilingual.md): Chinese-English group meeting script
 - [`results/sampled_summary.json`](./results/sampled_summary.json): summary from the sampled run
 
 ## Installation
