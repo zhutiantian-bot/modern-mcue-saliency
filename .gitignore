@@ -1,0 +1,14 @@
+.venv/
+.pydeps/
+__pycache__/
+*.pyc
+
+git-magnetic-tile-datasets/
+saliency-toolbox/
+opencv/
+opencv-3.1.0.exe
+
+outputs/
+slides/output/
+
+.DS_Store
